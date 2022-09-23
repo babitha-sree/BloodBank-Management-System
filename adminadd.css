@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    font-family: 'Miriam Libre', sans-serif;
+  }
+  body{
+    background: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+    background-attachment: fixed;
+    font-family: 'Miriam Libre', sans-serif;
+    color: black;
+}
+  a{
+    text-decoration: none;
+  }
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color:red;
+    overflow: hidden;
+  }
+  
+  #head{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid wheat;
+  }
+  #head img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid  #ffa260;
+    border-radius: 50%;
+  }
+  .navbtn{
+    margin: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    color:red;
+    transition: all 0.5s;
+  }
+  .navbtn:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+  }
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  section{
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 20px;
+    border: 2px solid #ffa260;
+    color: #ffa260;
+    transition: all 0.5s;
+  }
+  section:hover{
+    border-color: #f1ff5c;
+    color: wheat;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+  }
+  #formhead{
+    color: black;
+    text-align: center;
+    text-shadow: 4px 15px 10px rgba(0,0,0,0.5),
+                 2px 5px 5px rgba(0,0,0,0.5),
+                 3px 5px 5px rgba(0,0,0,0.5);
+    font-family: 'Miriam Libre', sans-serif;
+    
+}
+.spl{
+    width: 40%;
+    color: aqua;
+    text-align: left;
+    background: rgba(0,0,0, 0.5);
+    padding: 20px;
+    font-family: 'Secular One', sans-serif;
+    height: 775px;
+    margin-left: 30%;
+}
+.pos{
+    margin-left: 350px;
+}   

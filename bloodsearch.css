@@ -1,0 +1,40 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+.spl{
+    width: 25%;
+    color: aqua;
+    text-align: left;
+    background: rgba(0,0,0, 0.5);
+    padding: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+h1{
+    color: black;
+    text-align: center;
+    text-shadow: 4px 15px 10px rgba(0,0,0,0.5),
+                 2px 5px 5px rgba(0,0,0,0.5),
+                 3px 5px 5px rgba(0,0,0,0.5);
+    font-family: 'Miriam Libre', sans-serif;
+    
+}
+.pos{
+    margin-left: 275px;
+}
+.navbar{
+    font-family: 'Miriam Libre', sans-serif;
+    color: black;
+}
+i{
+    margin-right: 7px;
+    margin-left: 7px;
+    font-size: large;
+    color:#a1f0e8;
+}
